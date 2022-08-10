@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>254</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>AMOUNT:</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Enter Amount Here</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>FROM:</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>35</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select Currency</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>United Arab Emirates Dirham - AED</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Afghan Afghani - AFN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Albanian Lek - ALL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Armenian Dram - AMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Netherlands Antillean Guilder - ANG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Angolan Kwanza - AOA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Argentine Peso - ARS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Australian Dollar - AUD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Aruban Florin - AWG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Azerbaijani Manat - AZN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bosnia-Herzegovina Convertible Mark - BAM</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Barbadian Dollar - BBD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bangladeshi Taka - BDT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bulgarian Lev - BGN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bahraini Dinar - BHD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Burundian Franc - BIF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bermudan Dollar - BMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Brunei Dollar - BND</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bolivian Boliviano - BOB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Brazilian Real - BRL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bahamian Dollar - BSD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bitcoin - BTC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bhutanese Ngultrum - BTN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Botswanan Pula - BWP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Belarusian Ruble - BYN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Belarusian Ruble - BYR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Belize Dollar - BZD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Canadian Dollar - CAD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Congolese Franc - CDF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Swiss Franc - CHF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chilean Unit of Account (UF) - CLF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chilean Peso - CLP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chinese Yuan - CNY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colombian Peso - COP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Costa Rican Colón - CRC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cuban Convertible Peso - CUC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cuban Peso - CUP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cape Verdean Escudo - CVE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Czech Republic Koruna - CZK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Djiboutian Franc - DJF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Danish Krone - DKK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dominican Peso - DOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Algerian Dinar - DZD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Egyptian Pound - EGP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Eritrean Nakfa - ERN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ethiopian Birr - ETB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Euro - EUR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fijian Dollar - FJD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Falkland Islands Pound - FKP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>British Pound Sterling - GBP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Georgian Lari - GEL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guernsey Pound - GGP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ghanaian Cedi - GHS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gibraltar Pound - GIP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gambian Dalasi - GMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guinean Franc - GNF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guatemalan Quetzal - GTQ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guyanaese Dollar - GYD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hong Kong Dollar - HKD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Honduran Lempira - HNL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Croatian Kuna - HRK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Haitian Gourde - HTG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hungarian Forint - HUF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indonesian Rupiah - IDR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Israeli New Sheqel - ILS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Manx pound - IMP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indian Rupee - INR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Iraqi Dinar - IQD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Iranian Rial - IRR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Icelandic Króna - ISK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jersey Pound - JEP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jamaican Dollar - JMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jordanian Dinar - JOD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Japanese Yen - JPY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kenyan Shilling - KES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kyrgystani Som - KGS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cambodian Riel - KHR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Comorian Franc - KMF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>North Korean Won - KPW</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>South Korean Won - KRW</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kuwaiti Dinar - KWD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cayman Islands Dollar - KYD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kazakhstani Tenge - KZT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Laotian Kip - LAK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lebanese Pound - LBP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sri Lankan Rupee - LKR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Liberian Dollar - LRD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lesotho Loti - LSL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lithuanian Litas - LTL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Latvian Lats - LVL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Libyan Dinar - LYD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Moroccan Dirham - MAD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Moldovan Leu - MDL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Malagasy Ariary - MGA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Macedonian Denar - MKD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Myanma Kyat - MMK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mongolian Tugrik - MNT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Macanese Pataca - MOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mauritanian Ouguiya - MRO</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mauritian Rupee - MUR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Maldivian Rufiyaa - MVR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Malawian Kwacha - MWK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mexican Peso - MXN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Malaysian Ringgit - MYR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mozambican Metical - MZN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Namibian Dollar - NAD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nigerian Naira - NGN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nicaraguan Córdoba - NIO</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Norwegian Krone - NOK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nepalese Rupee - NPR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Zealand Dollar - NZD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Omani Rial - OMR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Panamanian Balboa - PAB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Peruvian Nuevo Sol - PEN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Papua New Guinean Kina - PGK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Philippine Peso - PHP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Pakistani Rupee - PKR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Polish Zloty - PLN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Paraguayan Guarani - PYG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Qatari Rial - QAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Romanian Leu - RON</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Serbian Dinar - RSD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Russian Ruble - RUB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Rwandan Franc - RWF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Saudi Riyal - SAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Solomon Islands Dollar - SBD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Seychellois Rupee - SCR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sudanese Pound - SDG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Swedish Krona - SEK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Singapore Dollar - SGD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Saint Helena Pound - SHP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sierra Leonean Leone - SLL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Somali Shilling - SOS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Surinamese Dollar - SRD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>São Tomé and Príncipe Dobra - STD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Salvadoran Colón - SVC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Syrian Pound - SYP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Swazi Lilangeni - SZL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Thai Baht - THB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tajikistani Somoni - TJS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Turkmenistani Manat - TMT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tunisian Dinar - TND</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tongan Paʻanga - TOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Turkish Lira - TRY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Trinidad and Tobago Dollar - TTD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Taiwan Dollar - TWD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tanzanian Shilling - TZS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ukrainian Hryvnia - UAH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ugandan Shilling - UGX</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>United States Dollar - USD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Uruguayan Peso - UYU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Uzbekistan Som - UZS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Venezuelan Bolívar Fuerte - VEF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Vietnamese Dong - VND</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Vanuatu Vatu - VUV</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Samoan Tala - WST</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CFA Franc BEAC - XAF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Silver (troy ounce) - XAG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gold (troy ounce) - XAU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>East Caribbean Dollar - XCD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Special Drawing Rights - XDR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CFA Franc BCEAO - XOF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CFP Franc - XPF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Yemeni Rial - YER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>South African Rand - ZAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zambian Kwacha (pre-2013) - ZMK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zambian Kwacha - ZMW</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zimbabwean Dollar - ZWL</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>TO:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>35</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select Currency</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>United Arab Emirates Dirham - AED</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Afghan Afghani - AFN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Albanian Lek - ALL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Armenian Dram - AMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Netherlands Antillean Guilder - ANG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Angolan Kwanza - AOA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Argentine Peso - ARS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Australian Dollar - AUD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Aruban Florin - AWG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Azerbaijani Manat - AZN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bosnia-Herzegovina Convertible Mark - BAM</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Barbadian Dollar - BBD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bangladeshi Taka - BDT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bulgarian Lev - BGN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bahraini Dinar - BHD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Burundian Franc - BIF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bermudan Dollar - BMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Brunei Dollar - BND</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bolivian Boliviano - BOB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Brazilian Real - BRL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bahamian Dollar - BSD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bitcoin - BTC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bhutanese Ngultrum - BTN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Botswanan Pula - BWP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Belarusian Ruble - BYN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Belarusian Ruble - BYR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Belize Dollar - BZD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Canadian Dollar - CAD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Congolese Franc - CDF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Swiss Franc - CHF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chilean Unit of Account (UF) - CLF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chilean Peso - CLP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chinese Yuan - CNY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colombian Peso - COP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Costa Rican Colón - CRC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cuban Convertible Peso - CUC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cuban Peso - CUP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cape Verdean Escudo - CVE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Czech Republic Koruna - CZK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Djiboutian Franc - DJF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Danish Krone - DKK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dominican Peso - DOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Algerian Dinar - DZD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Egyptian Pound - EGP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Eritrean Nakfa - ERN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ethiopian Birr - ETB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Euro - EUR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fijian Dollar - FJD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Falkland Islands Pound - FKP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>British Pound Sterling - GBP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Georgian Lari - GEL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guernsey Pound - GGP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ghanaian Cedi - GHS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gibraltar Pound - GIP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gambian Dalasi - GMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guinean Franc - GNF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guatemalan Quetzal - GTQ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guyanaese Dollar - GYD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hong Kong Dollar - HKD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Honduran Lempira - HNL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Croatian Kuna - HRK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Haitian Gourde - HTG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hungarian Forint - HUF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indonesian Rupiah - IDR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Israeli New Sheqel - ILS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Manx pound - IMP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indian Rupee - INR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Iraqi Dinar - IQD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Iranian Rial - IRR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Icelandic Króna - ISK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jersey Pound - JEP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jamaican Dollar - JMD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jordanian Dinar - JOD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Japanese Yen - JPY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kenyan Shilling - KES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kyrgystani Som - KGS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cambodian Riel - KHR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Comorian Franc - KMF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>North Korean Won - KPW</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>South Korean Won - KRW</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kuwaiti Dinar - KWD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cayman Islands Dollar - KYD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kazakhstani Tenge - KZT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Laotian Kip - LAK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lebanese Pound - LBP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sri Lankan Rupee - LKR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Liberian Dollar - LRD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lesotho Loti - LSL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lithuanian Litas - LTL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Latvian Lats - LVL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Libyan Dinar - LYD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Moroccan Dirham - MAD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Moldovan Leu - MDL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Malagasy Ariary - MGA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Macedonian Denar - MKD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Myanma Kyat - MMK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mongolian Tugrik - MNT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Macanese Pataca - MOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mauritanian Ouguiya - MRO</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mauritian Rupee - MUR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Maldivian Rufiyaa - MVR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Malawian Kwacha - MWK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mexican Peso - MXN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Malaysian Ringgit - MYR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mozambican Metical - MZN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Namibian Dollar - NAD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nigerian Naira - NGN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nicaraguan Córdoba - NIO</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Norwegian Krone - NOK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nepalese Rupee - NPR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Zealand Dollar - NZD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Omani Rial - OMR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Panamanian Balboa - PAB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Peruvian Nuevo Sol - PEN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Papua New Guinean Kina - PGK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Philippine Peso - PHP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Pakistani Rupee - PKR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Polish Zloty - PLN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Paraguayan Guarani - PYG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Qatari Rial - QAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Romanian Leu - RON</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Serbian Dinar - RSD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Russian Ruble - RUB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Rwandan Franc - RWF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Saudi Riyal - SAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Solomon Islands Dollar - SBD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Seychellois Rupee - SCR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sudanese Pound - SDG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Swedish Krona - SEK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Singapore Dollar - SGD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Saint Helena Pound - SHP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sierra Leonean Leone - SLL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Somali Shilling - SOS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Surinamese Dollar - SRD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>São Tomé and Príncipe Dobra - STD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Salvadoran Colón - SVC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Syrian Pound - SYP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Swazi Lilangeni - SZL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Thai Baht - THB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tajikistani Somoni - TJS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Turkmenistani Manat - TMT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tunisian Dinar - TND</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tongan Paʻanga - TOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Turkish Lira - TRY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Trinidad and Tobago Dollar - TTD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Taiwan Dollar - TWD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tanzanian Shilling - TZS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ukrainian Hryvnia - UAH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ugandan Shilling - UGX</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>United States Dollar - USD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Uruguayan Peso - UYU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Uzbekistan Som - UZS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Venezuelan Bolívar Fuerte - VEF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Vietnamese Dong - VND</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Vanuatu Vatu - VUV</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Samoan Tala - WST</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CFA Franc BEAC - XAF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Silver (troy ounce) - XAG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gold (troy ounce) - XAU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>East Caribbean Dollar - XCD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Special Drawing Rights - XDR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CFA Franc BCEAO - XOF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CFP Franc - XPF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Yemeni Rial - YER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>South African Rand - ZAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zambian Kwacha (pre-2013) - ZMK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zambian Kwacha - ZMW</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zimbabwean Dollar - ZWL</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>CONVERT</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <pointsize>25</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>RESET</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
